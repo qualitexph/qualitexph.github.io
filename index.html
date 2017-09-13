@@ -2,9 +2,10 @@
 <html>
 
 	<head>
-		<title>Qualitex</title>
-		<link href="img/icon.png" rel="icon">
-		
+		<title>Qualitex Management Consultancy
+		<link href="icon_BsX_icon.ico" rel="shortcut icon" type="image/x-icon"/>
+		<link href="icon_BsX_icon.ico" rel="icon" type="image/x-icon"/>
+		</title>
 		<!--Import Google Icon Font-->
 		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		
@@ -1007,23 +1008,23 @@
 							</div>	
 								
 							<div class="row">
-								<form action="https://formspree.io/info@qualitexph.com" class="col s12" method="POST">
+								<form action="http://www.qualitexph.com/mail_handler.php" method="post" class="col s12">
 									<div class="row">
 										<div class="input-field col s12 m6 l6">
-										  <input name="name" id="name" type="text" class="validate" required>
-										  <label for="name">Full Name</label>
+										  <input name="fname" id="fname" type="text" class="validate" required>
+										  <label for="fname">First Name</label>
 										</div>
 										
 										<div class="input-field col s12 m6 l6">
-										  <input name="_replyto" id="email" type="email" class="validate" required>
-										  <label for="email">Email</label>
+										  <input name="lname" id="fname" type="text" class="validate" required>
+										  <label for="lname">Last Name</label>
 										</div>
 									</div> 
 									<div class="row">
 										
 										<div class="input-field col s12">
-										  <input name="_subject" id="subject" type="text" class="validate" required>
-										  <label for="subject">Subject</label>
+										  <input name="email" id="email" type="email" class="validate" required>
+										  <label for="email">Email</label>
 										</div>
 									</div>
 									
@@ -1031,7 +1032,7 @@
 										
 										<div class="input-field col s12">
 											<h3 class="left-align"><i class="fa fa-pencil material-icons" aria-hidden="true"></i></h3>	
-											<textarea name="message" id="message" class="materialize-textarea" required></textarea>
+											<textarea name="message" rows="5" cols="10" id="message" class="materialize-textarea" required></textarea>
 											<label for="message" style="padding-left:50px;">Message</label>							  
 										</div>
 									</div>
@@ -1044,21 +1045,18 @@
 										</a>
 									</div>
 									
-										<div class="row col s12 m12 l6 right-align">
-											<button class="btn waves-effect waves-light blue darken-4" type="submit" name="action" value="Send">Submit
-												<i class="fa fa-paper-plane right-align" aria-hidden="true"></i>
-											</button>
-										</div>
-										
-									
+									<div class="row col s12 m12 l6 right-align">
+										<input class="btn waves-effect waves-light blue darken-4" type="submit" name="submit">
+										<!--<i class="fa fa-paper-plane right-align" aria-hidden="true"></i>
+										-->
+									</div>	
 								</form>
-								
-								
-								</div>
-							</div>	
-						</div>
+							</div>
+							
+						</div>	
 					</div>
 				</div>
+			</div>
 			
 			
 			<!-- TAB 5 -->
