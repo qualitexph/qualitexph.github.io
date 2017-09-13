@@ -32,7 +32,7 @@ $(window).load(function() {
 
 $("#read-more").click(function(){	//Footer READ MORE
 	$("#tab-opener5").trigger("click");
-	return 'a[href="#readmore '+ read-more +'" ]';
+	return 'a[href="#readmore" ]';
 	
 });
 
