@@ -5,6 +5,9 @@ $(document).ready(function(){
     indicators:false
 	});
 	$('.materialboxed').materialbox();
+	$('.scrollspy').scrollSpy({
+	scrollOffset:0
+	});
 });
 
 var tab1loaded, tab2loaded, tab3loaded, tab4loaded, tab5loaded;
@@ -29,7 +32,8 @@ $(window).load(function() {
 
 $("#read-more").click(function(){	//Footer READ MORE
 	$("#tab-opener5").trigger("click");
-	return false;
+	return 'a[href='+ read-more +'"#readmore"]';
+	
 });
 
 
@@ -72,6 +76,7 @@ $("#tab-opener").click(function() { //tab preloader
 		$("#tab4").removeClass("tab-current");
 		$("#tab5").fadeOut('fast');
 		$("#tab5").removeClass("tab-current");
+		
 	}
     else if(clicked === "tab-opener2"){
 		
@@ -256,6 +261,7 @@ $(window).bind('DOMContentLoaded load resize', function () {
 	
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
+	$('.scrollspy').scrollSpy();
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
