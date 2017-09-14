@@ -5,9 +5,6 @@ $(document).ready(function(){
     indicators:false
 	});
 	$('.materialboxed').materialbox();
-	$('.scrollspy').scrollSpy({
-	scrollOffset:0
-	});
 });
 
 var tab1loaded, tab2loaded, tab3loaded, tab4loaded, tab5loaded;
